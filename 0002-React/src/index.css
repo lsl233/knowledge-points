@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  height: 100vh;
+}
+
+.side-bar, .container {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.side-bar {
+  height: 100%;
+  width: 30%;
+  padding: 4px;
+  border: 4px solid #000;
+  border-right: none;
+
+  button {
+    display: block;
+    border: none;
+    background: none;
+    margin: 4px 0;
+  }
+}
+
+.container {
+  border: 4px solid #000;
+  flex: 1;
+  padding: 4px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 4px;
+}
